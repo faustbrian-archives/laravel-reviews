@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Skeleton.
+ * This file is part of Laravel Reviewable.
  *
  * (c) KodeKeep <hello@kodekeep.com>
  *
@@ -11,12 +11,11 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Skeleton;
+namespace KodeKeep\Tests\Reviewable;
 
-class SkeletonClass
+use GrahamCampbell\TestBench\AbstractPackageTestCase;
+
+abstract class AbstractTestCase extends AbstractPackageTestCase
 {
-    public function echoPhrase(string $phrase): string
-    {
-        return $phrase;
-    }
+    //
 }
