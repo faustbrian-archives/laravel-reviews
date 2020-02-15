@@ -1,6 +1,6 @@
 {
     "name": "kodekeep/laravel-reviews",
-    "description": ":package_description",
+    "description": "Attach Reviews to Laravel Eloquent Models.",
     "keywords": [
         "kodekeep",
         "laravel-reviews"

@@ -1,4 +1,4 @@
-# Very short description of the package
+# Laravel Reviews
 
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/kodekeep/laravel-reviews/run-tests?label=tests)](https://github.com/kodekeep/laravel-reviews/actions?query=workflow%3Arun-tests+branch%3Amaster)
 [![Code Coverage](https://badgen.now.sh/codecov/c/github/kodekeep/laravel-reviews)](https://codecov.io/gh/kodekeep/laravel-reviews)
@@ -7,7 +7,7 @@
 [![Total Downloads](https://badgen.net/packagist/dt/kodekeep/laravel-reviews)](https://packagist.org/packages/kodekeep/laravel-reviews)
 [![License](https://badgen.net/packagist/license/kodekeep/laravel-reviews)](https://packagist.org/packages/kodekeep/laravel-reviews)
 
-This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
+> Attach Reviews to Laravel Eloquent Models.
 
 ## Installation
 
@@ -17,10 +17,7 @@ composer require kodekeep/laravel-reviews
 
 ## Usage
 
-``` php
-$skeleton = new KodeKeep\Reviews();
-echo $skeleton->echoPhrase('Hello, KodeKeep!');
-```
+See our [tests](https://github.com/kodekeep/laravel-reviews/tree/master/tests/Unit) for usage examples.
 
 ## Testing
 

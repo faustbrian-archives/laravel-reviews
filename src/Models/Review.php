@@ -27,6 +27,6 @@ class Review extends Model
 
     public function author(): MorphTo
     {
-        return $this->morphTo('author');
+        return $this->morphTo();
     }
 }
