@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Skeleton.
+ * This file is part of Laravel Reviews.
  *
  * (c) KodeKeep <hello@kodekeep.com>
  *
@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Reviewable\Concerns;
+namespace KodeKeep\Reviews\Concerns;
 
 use Illuminate\Database\Eloquent\Relations\MorphMany;
-use KodeKeep\Reviewable\Models\Review;
+use KodeKeep\Reviews\Models\Review;
 
 trait HasReviews
 {

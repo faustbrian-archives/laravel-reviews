@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Skeleton.
+ * This file is part of Laravel Reviews.
  *
  * (c) KodeKeep <hello@kodekeep.com>
  *
@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Reviewable\Models;
+namespace KodeKeep\Reviews\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphTo;

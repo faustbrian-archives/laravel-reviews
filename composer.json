@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "KodeKeep\\Skeleton\\": "src"
+            "KodeKeep\\Reviews\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "KodeKeep\\Skeleton\\Tests\\": "tests"
+            "KodeKeep\\Reviews\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KodeKeep\\Skeleton\\SkeletonServiceProvider"
+                "KodeKeep\\Reviews\\ReviewsServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "KodeKeep\\Skeleton\\SkeletonFacade"
+                "Reviews": "KodeKeep\\Reviews\\ReviewsFacade"
             }
         }
     },

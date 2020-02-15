@@ -18,7 +18,7 @@ composer require kodekeep/laravel-reviews
 ## Usage
 
 ``` php
-$skeleton = new KodeKeep\Skeleton();
+$skeleton = new KodeKeep\Reviews();
 echo $skeleton->echoPhrase('Hello, KodeKeep!');
 ```
 

@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /*
- * This file is part of Laravel Reviewable.
+ * This file is part of Laravel Reviews.
  *
  * (c) KodeKeep <hello@kodekeep.com>
  *
@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Tests\Reviewable;
+namespace KodeKeep\Tests\Reviews;
 
 use GrahamCampbell\TestBench\AbstractPackageTestCase;
 
