@@ -29,25 +29,4 @@ class Review extends Model
     {
         return $this->morphTo('author');
     }
-
-    public function createReview(Model $reviewable, $data, Model $author): bool
-    {
-        $review = new static();
-        $review->fill(array_merge($data, [
-            'author_id'   => $author->id,
-            'author_type' => get_class($author),
-        ]));
-
-        return (bool) $reviewable->reviews()->save($review);
-    }
-
-    public function updateReview($id, $data): bool
-    {
-        return (bool) static::find($id)->update($data);
-    }
-
-    public function deleteReview($id): bool
-    {
-        return (bool) static::find($id)->delete();
-    }
 }

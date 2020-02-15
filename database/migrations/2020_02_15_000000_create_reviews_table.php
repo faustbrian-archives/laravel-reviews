@@ -13,6 +13,7 @@ declare(strict_types=1);
 
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
 class CreateReviewsTable extends Migration
 {
@@ -20,11 +21,11 @@ class CreateReviewsTable extends Migration
     {
         Schema::create('reviews', function (Blueprint $table) {
             $table->increments('id');
+            $table->morphs('reviewable');
+            $table->morphs('author');
             $table->string('title');
             $table->text('body');
             $table->integer('rating');
-            $table->morphs('reviewable');
-            $table->morphs('author');
             $table->timestamps();
         });
     }

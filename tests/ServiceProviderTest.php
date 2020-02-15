@@ -15,6 +15,9 @@ namespace KodeKeep\Tests\Reviewable;
 
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
 
+/**
+ * @coversNothing
+ */
 class ServiceProviderTest extends AbstractTestCase
 {
     use ServiceProviderTrait;
