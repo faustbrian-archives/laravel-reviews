@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Reviews;
+namespace KodeKeep\Reviews\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

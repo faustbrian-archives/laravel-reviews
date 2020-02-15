@@ -11,11 +11,18 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace KodeKeep\Tests\Reviews;
+namespace KodeKeep\Reviews\Tests\Unit;
 
-use GrahamCampbell\TestBench\AbstractPackageTestCase;
+use PHPUnit\Framework\TestCase;
 
-abstract class AbstractTestCase extends AbstractPackageTestCase
+/**
+ * @coversNothing
+ */
+class ExampleTest extends TestCase
 {
-    //
+    /** @test */
+    public function true_is_true(): void
+    {
+        $this->assertTrue(true);
+    }
 }

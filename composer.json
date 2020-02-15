@@ -49,7 +49,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "KodeKeep\\Reviews\\ReviewsServiceProvider"
+                "KodeKeep\\Reviews\\Providers\\ReviewsServiceProvider"
             ],
             "aliases": {
                 "Reviews": "KodeKeep\\Reviews\\ReviewsFacade"
