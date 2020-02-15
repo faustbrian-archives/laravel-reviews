@@ -18,7 +18,7 @@ use Illuminate\Database\Eloquent\Relations\MorphTo;
 
 class Review extends Model
 {
-    protected $guarded = ['id', 'created_at', 'updated_at'];
+    protected $fillable = ['title', 'body', 'rating'];
 
     public function reviewable(): MorphTo
     {
